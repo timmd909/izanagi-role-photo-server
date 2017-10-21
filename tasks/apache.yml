@@ -7,4 +7,3 @@
 
 - name: Enable Lychee Apache site
   shell: a2ensite lychee
-

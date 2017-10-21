@@ -38,4 +38,3 @@
 
 - name: Lock Lychee user account
   user: name="{{ lychee_user }}" shell="/bin/false"
-
