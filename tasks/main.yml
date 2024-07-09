@@ -4,13 +4,13 @@
 # server running Lychee
 #
 
-- include: "apache.yml"
+- import_tasks: "apache.yml"
   become: yes
   become_user: root
-- include: "install.yml"
+- import_tasks: "install.yml"
   become: yes
   become_user: root
-- include: "database.yml"
+- import_tasks: "database.yml"
   become: yes
   become_user: root
 
